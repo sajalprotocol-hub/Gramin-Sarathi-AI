@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ग्रामीण सारथी AI - आपका वित्तीय मार्गदर्शक</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="language-toggle">
+        <button class="lang-btn active" data-lang="hi">हिंदी</button>
+        <button class="lang-btn" data-lang="en">English</button>
+    </div>
+
+    <div class="news-ticker">
+        <div class="ticker-content">
+            <div class="ticker-item">🔔 नई खबर: PM-KISAN की 18वीं किस्त जल्द आएगी</div>
+            <div class="ticker-item">💰 KCC ब्याज दर में कमी - अब सिर्फ 4%</div>
+            <div class="ticker-item">🌾 फसल बीमा योजना के लिए आवेदन खुले</div>
+            <div class="ticker-item">🏦 मुद्रा लोन की सीमा बढ़ाकर ₹20 लाख</div>
+            <div class="ticker-item">🔔 नई खबर: PM-KISAN की 18वीं किस्त जल्द आएगी</div>
+            <div class="ticker-item">💰 KCC ब्याज दर में कमी - अब सिर्फ 4%</div>
+            <div class="ticker-item">🌾 फसल बीमा योजना के लिए आवेदन खुले</div>
+            <div class="ticker-item">🏦 मुद्रा लोन की सीमा बढ़ाकर ₹20 लाख</div>
+        </div>
+    </div>
+
+    <nav id="navbar">
+        <div class="logo">
+            🌾 ग्रामीण सारथी AI
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">होम</a></li>
+            <li><a href="#features">विशेषताएं</a></li>
+            <li><a href="#calculator">कैलकुलेटर</a></li>
+            <li><a href="#voice">आवाज़</a></li>
+            <li><a href="#schemes">योजनाएं</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">संपर्क</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="animated-bg">
+            <div class="floating-shape shape1"></div>
+            <div class="floating-shape shape2"></div>
+            <div class="floating-shape shape3"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>आपका भरोसेमंद वित्तीय साथी</h1>
+                <p>ग्रामीण सारथी AI आपको आसान भाषा में बैंकिंग, सरकारी योजनाओं और वित्तीय सेवाओं की जानकारी देता है। अब वित्तीय जानकारी सिर्फ एक सवाल दूर है!</p>
+                <div class="cta-buttons">
+                    <a href="#voice" class="btn btn-primary">अभी शुरू करें</a>
+                    <a href="#features" class="btn btn-secondary">और जानें</a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-frame">
+                        <div class="phone-screen">
+                            <div class="chat-bubble user">किसान क्रेडिट कार्ड क्या है?</div>
+                            <div class="chat-bubble">नमस्ते! किसान क्रेडिट कार्ड एक सरकारी योजना है जो किसानों को कम ब्याज दर पर लोन दिलाने में मदद करती है। 🌾</div>
+                            <div class="chat-bubble user">मुझे कैसे मिलेगा?</div>
+                            <div class="chat-bubble">मैं आपकी मदद कर सकता हूँ! क्या आपके पास खेती की ज़मीन है? 🤔</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-container">
+            <h2 class="section-title">हमारी विशेषताएं</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>आसान भाषा में जवाब</h3>
+                    <p>हम जटिल वित्तीय शब्दों को सरल हिंदी में समझाते हैं, जैसे गांव का बैंक मित्र समझाता है।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>सरकारी योजनाएं</h3>
+                    <p>PM-KISAN, PMFBY, KCC और अन्य सभी सरकारी योजनाओं की पूरी जानकारी एक जगह पर।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>सुरक्षित और भरोसेमंद</h3>
+                    <p>हम कभी भी आपकी निजी जानकारी नहीं मांगते। आपकी सुरक्षा हमारी प्राथमिकता है।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>24/7 उपलब्ध</h3>
+                    <p>कभी भी, कहीं भी अपने सवाल पूछें। हम हमेशा आपकी मदद के लिए तैयार हैं।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>वॉइस सपोर्ट</h3>
+                    <p>बोलकर पूछें, सुनकर समझें। टाइपिंग की कोई जरूरत नहीं।</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3>पात्रता जांच</h3>
+                    <p>आसान सवालों के जरिए जानें कि आप किस योजना के लिए पात्र हैं।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator-section" id="calculator">
+        <div class="features-container">
+            <h2 class="section-title">वित्तीय कैलकुलेटर</h2>
+            <p class="calculator-description">अपने लोन और निवेश की गणना करें</p>
+            
+            <div class="calculator-grid">
+                <div class="calculator-card">
+                    <h3>🏦 EMI कैलकुलेटर</h3>
+                    <div class="input-group">
+                        <label>लोन राशि (₹)</label>
+                        <input type="number" id="loanAmount" placeholder="जैसे: 100000">
+                    </div>
+                    <div class="input-group">
+                        <label>ब्याज दर (%)</label>
+                        <input type="number" id="interestRate" placeholder="जैसे: 7" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label>समय (महीने)</label>
+                        <input type="number" id="loanTenure" placeholder="जैसे: 12">
+                    </div>
+                    <button class="calc-btn" onclick="calculateEMI()">EMI गणना करें</button>
+                    <div class="result-box" id="emiResult">
+                        <h4>आपकी मासिक EMI</h4>
+                        <div class="amount" id="emiAmount">₹0</div>
+                    </div>
+                </div>
+
+                <div class="calculator-card">
+                    <h3>🌾 फसल बीमा प्रीमियम</h3>
+                    <div class="input-group">
+                        <label>फसल का प्रकार</label>
+                        <input type="text" id="cropType" placeholder="जैसे: धान, गेहूं">
+                    </div>
+                    <div class="input-group">
+                        <label>बीमित राशि (₹)</label>
+                        <input type="number" id="insuredAmount" placeholder="जैसे: 50000">
+                    </div>
+                    <div class="input-group">
+                        <label>प्रीमियम दर (%)</label>
+                        <input type="number" id="premiumRate" placeholder="2" step="0.1" value="2">
+                    </div>
+                    <button class="calc-btn" onclick="calculateInsurance()">प्रीमियम गणना करें</button>
+                    <div class="result-box" id="insuranceResult">
+                        <h4>आपका प्रीमियम</h4>
+                        <div class="amount" id="insuranceAmount">₹0</div>
+                    </div>
+                </div>
+
+                <div class="calculator-card">
+                    <h3>💰 SIP रिटर्न कैलकुलेटर</h3>
+                    <div class="input-group">
+                        <label>मासिक निवेश (₹)</label>
+                        <input type="number" id="sipAmount" placeholder="जैसे: 1000">
+                    </div>
+                    <div class="input-group">
+                        <label>अपेक्षित रिटर्न (% प्रति वर्ष)</label>
+                        <input type="number" id="sipReturn" placeholder="12" step="0.1">
+                    </div>
+                    <div class="input-group">
+                        <label>समय (वर्ष)</label>
+                        <input type="number" id="sipYears" placeholder="10">
+                    </div>
+                    <button class="calc-btn" onclick="calculateSIP()">रिटर्न गणना करें</button>
+                    <div class="result-box" id="sipResult">
+                        <h4>कुल मूल्य</h4>
+                        <div class="amount" id="sipTotalAmount">₹0</div>
+                        <p class="sip-details">निवेश: <span id="sipInvested">₹0</span> | लाभ: <span id="sipGain">₹0</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="voice-section" id="voice">
+        <h2>अपनी आवाज़ से पूछें</h2>
+        <p>सरकारी योजनाओं, बीमा और वित्तीय उत्पादों के बारे में व्यक्तिगत सलाह पाने के लिए अपनी आवाज़ का उपयोग करें।</p>
+        
+        <div class="voice-container">
+            <div class="ripple-container" id="rippleContainer"></div>
+            <button class="voice-button" id="voiceButton">
+                🎤
+            </button>
+            <div class="voice-status" id="voiceStatus">बोलने के लिए माइक पर टैप करें</div>
+            <div class="voice-transcript" id="voiceTranscript">
+                <p id="transcriptText"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="schemes" id="schemes">
+        <div class="features-container">
+            <h2 class="section-title">लोकप्रिय योजनाएं</h2>
+            <div class="schemes-grid">
+                <div class="scheme-card">
+                    <h3>🌾 किसान क्रेडिट कार्ड</h3>
+                    <p>कम ब्याज दर पर खेती के लिए लोन। ब्याज दर: 4% तक</p>
+                </div>
+                <div class="scheme-card">
+                    <h3>💰 PM-KISAN योजना</h3>
+                    <p>साल में ₹6000 की सीधी मदद। तीन किस्तों में ₹2000</p>
+                </div>
+                <div class="scheme-card">
+                    <h3>🛡️ फसल बीमा योजना</h3>
+                    <p>प्राकृतिक आपदा से फसल की सुरक्षा। प्रीमियम: 1.5-2%</p>
+                </div>
+                <div class="scheme-card">
+                    <h3>🏦 मुद्रा लोन</h3>
+                    <p>छोटे व्यवसाय के लिए लोन। ₹10 लाख तक बिना गारंटी</p>
+                </div>
+                <div class="scheme-card">
+                    <h3>👵 आयुष्मान भारत</h3>
+                    <p>₹5 लाख तक का मुफ्त इलाज। पूरे परिवार के लिए</p>
+                </div>
+                <div class="scheme-card">
+                    <h3>🏠 प्रधानमंत्री आवास योजना</h3>
+                    <p>घर बनाने के लिए मदद। ₹2.5 लाख तक की सब्सिडी</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="features-container">
+            <h2 class="section-title" id="testimonialTitle">लोगों ने क्या कहा</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👨‍🌾</div>
+                        <div class="testimonial-info">
+                            <h4>रामप्रसाद यादव</h4>
+                            <p>किसान, बिहार</p>
+                        </div>
+                    </div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>ग्रामीण सारथी AI से मुझे KCC के बारे में बहुत आसानी से जानकारी मिली। अब मैं अपनी खेती के लिए सही समय पर लोन ले सकता हूँ।</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👩</div>
+                        <div class="testimonial-info">
+                            <h4>सुनीता देवी</h4>
+                            <p>गृहिणी, उत्तर प्रदेश</p>
+                        </div>
+                    </div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>मुझे PM-KISAN योजना के बारे में नहीं पता था। इस AI की मदद से मैंने अपने पति के लिए आवेदन किया और ₹6000 मिले।</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">👨‍💼</div>
+                        <div class="testimonial-info">
+                            <h4>अजय कुमार</h4>
+                            <p>दुकानदार, झारखंड</p>
+                        </div>
+                    </div>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>मुद्रा लोन के लिए आवेदन करना बहुत आसान हो गया। वॉइस फीचर बहुत काम का है!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <div class="features-container">
+            <h2 class="section-title">अक्सर पूछे जाने वाले सवाल (FAQ)</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>ग्रामीण सारथी AI क्या है?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            ग्रामीण सारथी AI एक आर्टिफिशियल इंटेलिजेंस आधारित वित्तीय मार्गदर्शक है जो ग्रामीण और अर्ध-शहरी क्षेत्रों के लोगों को सरकारी योजनाओं, बैंकिंग सेवाओं और वित्तीय उत्पादों के बारे में आसान भाषा में जानकारी प्रदान करता है।
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>क्या यह सेवा मुफ्त है?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            हाँ, ग्रामीण सारथी AI की सभी सेवाएं पूरी तरह से मुफ्त हैं। आप बिना किसी शुल्क के सरकारी योजनाओं, लोन, बीमा और अन्य वित्तीय जानकारी प्राप्त कर सकते हैं।
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>किसान क्रेडिट कार्ड कैसे बनवाएं?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            KCC बनवाने के लिए आपको अपने नजदीकी बैंक में जाना होगा। आपके पास खेती की जमीन का कागज, आधार कार्ड, और पासपोर्ट साइज फोटो होना चाहिए। बैंक आपकी जमीन के हिसाब से लोन की राशि तय करेगा।
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>PM-KISAN योजना के लिए कौन पात्र है?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            सभी छोटे और सीमांत किसान जिनके पास 2 हेक्टेयर तक की खेती की जमीन है, वे PM-KISAN योजना के लिए पात्र हैं। इस योजना के तहत हर साल ₹6000 तीन किस्तों में दिए जाते हैं।
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>क्या मैं वॉइस से सवाल पूछ सकता हूँ?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            हाँ! आप हमारे वॉइस फीचर का उपयोग करके हिंदी में अपने सवाल बोल सकते हैं। बस माइक बटन पर क्लिक करें और अपना सवाल पूछें। AI आपको तुरंत जवाब देगा।
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>क्या मेरी निजी जानकारी सुरक्षित है?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
+                    <div class="faq-answer">
+                        <div class="faq-answer-content">
+                            बिल्कुल! हम आपकी निजी जानकारी की सुरक्षा को बहुत गंभीरता से लेते हैं। हम कभी भी आपका आधार नंबर, PAN नंबर, बैंक अकाउंट डिटेल्स या पासवर्ड नहीं मांगते। आपकी सभी जानकारी एन्क्रिप्टेड और सुरक्षित रहती है।
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="features-container">
+            <h2 class="section-title">हमसे संपर्क करें</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">संपर्क जानकारी</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>हेल्पलाइन नंबर</h4>
+                            <p>1800-XXX-XXXX (टोल फ्री)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>ईमेल</h4>
+                            <p>support@graminsarathi.ai</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <p>+91-XXXXX-XXXXX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div class="contact-details">
+                            <h4>समय</h4>
+                            <p>24/7 उपलब्ध</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 class="contact-subtitle">संदेश भेजें</h3>
+                    <form onsubmit="submitForm(event)">
+                        <div class="form-group">
+                            <label>आपका नाम *</label>
+                            <input type="text" required placeholder="अपना नाम लिखें">
+                        </div>
+                        <div class="form-group">
+                            <label>मोबाइल नंबर *</label>
+                            <input type="tel" required placeholder="10 अंकों का नंबर">
+                        </div>
+                        <div class="form-group">
+                            <label>ईमेल</label>
+                            <input type="email" placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label>संदेश *</label>
+                            <textarea required placeholder="अपना संदेश यहाँ लिखें..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">संदेश भेजें</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h3 class="footer-title">ग्रामीण सारथी AI</h3>
+        <p>&copy; 2025 ग्रामीण सारथी AI | आपका भरोसेमंद वित्तीय साथी</p>
+        <div class="footer-links">
+            <a href="#home">होम</a>
+            <a href="#features">विशेषताएं</a>
+            <a href="#schemes">योजनाएं</a>
+            <a href="#">गोपनीयता नीति</a>
+            <a href="#">शर्तें</a>
+            <a href="#contact">संपर्क</a>
+        </div>
+        <p class="footer-tagline">Made with ❤️ for Rural India</p>
+    </footer>
+
+    <div class="chat-widget">
+        <button class="chat-toggle" onclick="toggleChat()">💬</button>
+        <div class="chat-box" id="chatBox">
+            <div class="chat-header">
+                <h4>ग्रामीण सारथी AI</h4>
+                <button class="chat-close" onclick="toggleChat()">×</button>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="chat-bubble">नमस्ते! मैं ग्रामीण सारथी AI हूँ। मैं आपकी कैसे मदद कर सकता हूँ?</div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" class="chat-input" id="chatInput" placeholder="अपना सवाल लिखें...">
+                <button class="chat-send" onclick="sendMessage()">भेजें</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
